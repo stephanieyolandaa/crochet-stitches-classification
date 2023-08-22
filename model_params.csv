@@ -1,0 +1,5 @@
+Model_Path,History_Path,Dataset,Num_Layers,Dense_Layers,Dropout_Layers,Input_Dimension,Output_Dimension,Optimizer,Loss_Function,Learning_Rate,Batch_Size,Epochs
+models/baseline_model_1692608173.keras,models/trained_baseline_model_1692608173.pkl,ds_baseline,0,[],[0.5],"(224, 224, 3)",3,<keras.optimizers.optimizer_experimental.adam.Adam object at 0x7f78f16c1b50>,categorical_crossentropy,0.001,16,20
+models/xception_model_1692608291.keras,models/trained_xception_model_1692608291.pkl,ds_xception,0,[],[0.5],"(224, 224, 3)",3,<keras.optimizers.optimizer_experimental.adam.Adam object at 0x7f78f16c1b50>,categorical_crossentropy,0.001,16,20
+models/vgg16_model_1692614235.keras,models/trained_vgg16_model_1692614235.pkl,ds_vgg16,0,[],[0.5],"(224, 224, 3)",3,<keras.optimizers.optimizer_experimental.adam.Adam object at 0x7f78f16c1b50>,categorical_crossentropy,0.001,16,20
+models/resnet50_model_1692615433.keras,models/trained_resnet50_model_1692615433.pkl,ds_resnet50,0,[],[0.5],"(224, 224, 3)",3,<keras.optimizers.optimizer_experimental.adam.Adam object at 0x7f78f16c1b50>,categorical_crossentropy,0.001,16,20
