@@ -1,5 +1,17 @@
-Model_Path,History_Path,Dataset,Num_Layers,Dense_Layers,Dropout_Layers,Input_Dimension,Output_Dimension,Optimizer,Loss_Function,Learning_Rate,Batch_Size,Epochs
-models/baseline_model_1692608173.keras,models/trained_baseline_model_1692608173.pkl,ds_baseline,0,[],[0.5],"(224, 224, 3)",3,<keras.optimizers.optimizer_experimental.adam.Adam object at 0x7f78f16c1b50>,categorical_crossentropy,0.001,16,20
-models/xception_model_1692608291.keras,models/trained_xception_model_1692608291.pkl,ds_xception,0,[],[0.5],"(224, 224, 3)",3,<keras.optimizers.optimizer_experimental.adam.Adam object at 0x7f78f16c1b50>,categorical_crossentropy,0.001,16,20
-models/vgg16_model_1692614235.keras,models/trained_vgg16_model_1692614235.pkl,ds_vgg16,0,[],[0.5],"(224, 224, 3)",3,<keras.optimizers.optimizer_experimental.adam.Adam object at 0x7f78f16c1b50>,categorical_crossentropy,0.001,16,20
-models/resnet50_model_1692615433.keras,models/trained_resnet50_model_1692615433.pkl,ds_resnet50,0,[],[0.5],"(224, 224, 3)",3,<keras.optimizers.optimizer_experimental.adam.Adam object at 0x7f78f16c1b50>,categorical_crossentropy,0.001,16,20
+Model_Path,History_Path,Dataset,Augmentation,Grayscale,Num_Layers,Dense_Layers,Dropout_Layers,Input_Dimension,Output_Dimension,Optimizer,Loss_Function,Learning_Rate,Batch_Size,Epochs
+models/baseline_model_1692896985.keras,models/trained_baseline_model_1692896985.pkl,og_ds/Baseline,None,False,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/baseline_model_1692897136.keras,models/trained_baseline_model_1692897136.pkl,off_aug_ds/Baseline,Offline,False,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/baseline_model_1692897194.keras,models/trained_baseline_model_1692897194.pkl,og_gs_ds/Baseline,None,True,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/baseline_model_1692897360.keras,models/trained_baseline_model_1692897360.pkl,off_aug_gs_ds/Baseline,Offline,True,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/xception_model_1692900207.keras,models/trained_xception_model_1692900207.pkl,og_ds/Xception,None,False,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/vgg16_model_1692900614.keras,models/trained_vgg16_model_1692900614.pkl,og_ds/VGG16,None,False,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/resnet50_model_1692903659.keras,models/trained_resnet50_model_1692903659.pkl,og_ds/ResNet50,None,False,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/xception_model_1692908184.keras,models/trained_xception_model_1692908184.pkl,off_aug_ds/Xception,Offline,False,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/xception_model_1692910088.keras,models/trained_xception_model_1692910088.pkl,og_gs_ds/Xception,None,True,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/xception_model_1692910833.keras,models/trained_xception_model_1692910833.pkl,off_aug_gs_ds/Xception,Offline,True,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/vgg16_model_1692936814.keras,models/trained_vgg16_model_1692936814.pkl,off_aug_ds/VGG16,Offline,False,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/resnet50_model_1692940667.keras,models/trained_resnet50_model_1692940667.pkl,off_aug_ds/ResNet50,Offline,False,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/vgg16_model_1692942788.keras,models/trained_vgg16_model_1692942788.pkl,og_gs_ds/VGG16,None,True,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/resnet50_model_1692943516.keras,models/trained_resnet50_model_1692943516.pkl,og_gs_ds/ResNet50,None,True,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/vgg16_model_1692945146.keras,models/trained_vgg16_model_1692945146.pkl,off_aug_gs_ds/VGG16,Offline,True,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
+models/resnet50_model_1692974020.keras,models/trained_resnet50_model_1692974020.pkl,off_aug_gs_ds/ResNet50,Offline,True,0,[],[0.5],"(224, 224, 3)",3,Adam,categorical_crossentropy,0.001,16,20
