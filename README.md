@@ -1,17 +1,8 @@
 <h1 align="center" id="title">Crochet Stitches Classification</h1>
 
-# crochet-stitches-classification
-This repository is for the classification of crochet stitches using pre-trained models.
-
-<p id="description">This project utilizes deep learning as an innovative method of classifying crochet stitches. A dataset of three crochet stitches is personally curated for this project.</p>
-
+<p id="description">This project utilizes deep learning as an innovative method of classifying three different crochet stitches.</p>
   
-  
-<h2>🧐 Features</h2>
-
-Here're some of the project's best features:
-
-  
+<p>A dataset of three crochet stitches is personally curated for this project.</p>
   
 <h2>💻 Built with</h2>
 
