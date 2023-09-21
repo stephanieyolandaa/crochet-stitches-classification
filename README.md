@@ -8,9 +8,11 @@
 
 Technologies used in the project:
 
+*   Python
 *   Tensorflow
 *   Keras
 *   CNN
 *   Pre-trained models (Xception VGG-16 ResNet-50)
 *   Scikit-learn
 *   Matplotlib
+*   Streamlit
