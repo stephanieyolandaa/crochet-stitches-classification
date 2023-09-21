@@ -1,15 +1,12 @@
 
-# Adapted from
-# https://github.com/nachi-hebbar/Flower-Classification-Web-App-Streamlit/blob/main/Flower_Classification_WebApp%20(1).ipynb
-
 import streamlit as st
 import tensorflow as tf
 import streamlit as st
-from tensorflow.keras.applications.xception import Xception,preprocess_input as xception_preprocess_input
+from tensorflow.keras.applications.resnet50 import preprocess_input as resnet50_preprocess
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model=tf.keras.models.load_model('xception_model.keras')
+    model=tf.keras.models.load_model('models/final_model.keras')
     return model
 with st.spinner('Model is being loaded..'):
     model=load_model()
@@ -26,12 +23,19 @@ import numpy as np
 st.set_option('deprecation.showfileUploaderEncoding', False)
 def import_and_predict(image_data, model):
     
-    size = (180,180)    
+    size = (224,224)    
     image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
     image = np.asarray(image)
-    image = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    img = xception_preprocess_input(image)
+    
+    # Convert images to grayscale
+    image = rgb2gray(np.copy(image))
+
+    # Reshape image from grayscale colorspace to rgb colorspace
+    image = np.expand_dims(image, axis=3)
+    image = image.repeat(3, axis=-1)
+    
+    # Data normalization
+    img = resnet50_preprocess(image)
 
     img_reshape = img[np.newaxis,...]
 
