@@ -2,7 +2,7 @@
 This repository is for the classification of crochet stitches using pre-trained models.
 
 Crochet Stitches Classification.ipynb - Table of contents
-  1 Prepare dataset
+  1 Prepare dataset\n
     1.1 Import images and labels
     1.2 Display imported images with labels
   2 Pre-process data
