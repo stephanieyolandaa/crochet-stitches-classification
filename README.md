@@ -6,7 +6,8 @@
 <p>A dataset of three crochet stitches (single crochet, half double crochet, and double crochet) is collected specially for this project.</p>
 
 <p>Access the dataset here: </p>
-<p href='https://drive.google.com/drive/folders/1Rg0g0QQbyYYowo4eC9Sg3YEK6KD-D8ZB?usp=drive_link'>Crochet_Stitches_Dataset_100</p>
+
+[Crochet_Stitches_Dataset_100](https://drive.google.com/drive/folders/1Rg0g0QQbyYYowo4eC9Sg3YEK6KD-D8ZB?usp=drive_link)
 
   
 <h2>💻 Built with</h2>
