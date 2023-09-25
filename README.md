@@ -2,10 +2,10 @@
 
 <p id="description">This project utilizes deep learning as an innovative method of classifying three different crochet stitches.</p>
 
-<h2>💻 About the dataset</h2>
-A dataset of three crochet stitches (single crochet, half double crochet, and double crochet) is personally collected specially for this project.
+<h2>📷 About the dataset</h2>
+<p>A dataset of three crochet stitches (single crochet, half double crochet, and double crochet) is personally collected specially for this project.</p>
 
-<p> Access the dataset here: </p>
+<p>Access the dataset here: </p>
 <p>https://drive.google.com/drive/folders/1Rg0g0QQbyYYowo4eC9Sg3YEK6KD-D8ZB?usp=drive_link</p>
 
   
