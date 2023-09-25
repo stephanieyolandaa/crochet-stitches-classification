@@ -7,8 +7,7 @@
 
 <p>Access the dataset here: </p>
 
-[Crochet_Stitches_Dataset_100](https://drive.google.com/drive/folders/1Rg0g0QQbyYYowo4eC9Sg3YEK6KD-D8ZB?usp=drive_link)
-
+<a href="https://drive.google.com/drive/folders/1Rg0g0QQbyYYowo4eC9Sg3YEK6KD-D8ZB?usp=drive_link" target="_blank">Crochet_Stitches_Dataset_100</a>
   
 <h2>💻 Built with</h2>
 
